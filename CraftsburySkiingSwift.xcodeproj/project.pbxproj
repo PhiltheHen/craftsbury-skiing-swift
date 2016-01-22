@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AFE6C2D1C51C40900BD5AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */; };
+		3AFE6C2F1C51C40900BD5AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */; };
+		3AFE6C321C51C40900BD5AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE6C301C51C40900BD5AE9 /* Main.storyboard */; };
+		3AFE6C351C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C331C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodeld */; };
+		3AFE6C371C51C40900BD5AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE6C361C51C40900BD5AE9 /* Assets.xcassets */; };
+		3AFE6C3A1C51C40900BD5AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE6C381C51C40900BD5AE9 /* LaunchScreen.storyboard */; };
+		3AFE6C451C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C441C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift */; };
+		3AFE6C501C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C4F1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFE6C411C51C40900BD5AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFE6C211C51C40900BD5AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFE6C281C51C40900BD5AE9;
+			remoteInfo = CraftsburySkiingSwift;
+		};
+		3AFE6C4C1C51C40900BD5AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFE6C211C51C40900BD5AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFE6C281C51C40900BD5AE9;
+			remoteInfo = CraftsburySkiingSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AFE6C291C51C40900BD5AE9 /* CraftsburySkiingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftsburySkiingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AFE6C311C51C40900BD5AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AFE6C341C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CraftsburySkiingSwift.xcdatamodel; sourceTree = "<group>"; };
+		3AFE6C361C51C40900BD5AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFE6C391C51C40900BD5AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AFE6C3B1C51C40900BD5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFE6C401C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftsburySkiingSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE6C441C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftsburySkiingSwiftTests.swift; sourceTree = "<group>"; };
+		3AFE6C461C51C40900BD5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFE6C4B1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftsburySkiingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE6C4F1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftsburySkiingSwiftUITests.swift; sourceTree = "<group>"; };
+		3AFE6C511C51C40900BD5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AFE6C261C51C40900BD5AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE6C3D1C51C40900BD5AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE6C481C51C40900BD5AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFE6C201C51C40900BD5AE9 = {
+			isa = PBXGroup;
+			children = (
+				3AFE6C2B1C51C40900BD5AE9 /* CraftsburySkiingSwift */,
+				3AFE6C431C51C40900BD5AE9 /* CraftsburySkiingSwiftTests */,
+				3AFE6C4E1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests */,
+				3AFE6C2A1C51C40900BD5AE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AFE6C2A1C51C40900BD5AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE6C291C51C40900BD5AE9 /* CraftsburySkiingSwift.app */,
+				3AFE6C401C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.xctest */,
+				3AFE6C4B1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFE6C2B1C51C40900BD5AE9 /* CraftsburySkiingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */,
+				3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */,
+				3AFE6C301C51C40900BD5AE9 /* Main.storyboard */,
+				3AFE6C361C51C40900BD5AE9 /* Assets.xcassets */,
+				3AFE6C381C51C40900BD5AE9 /* LaunchScreen.storyboard */,
+				3AFE6C3B1C51C40900BD5AE9 /* Info.plist */,
+				3AFE6C331C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodeld */,
+			);
+			path = CraftsburySkiingSwift;
+			sourceTree = "<group>";
+		};
+		3AFE6C431C51C40900BD5AE9 /* CraftsburySkiingSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE6C441C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift */,
+				3AFE6C461C51C40900BD5AE9 /* Info.plist */,
+			);
+			path = CraftsburySkiingSwiftTests;
+			sourceTree = "<group>";
+		};
+		3AFE6C4E1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE6C4F1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift */,
+				3AFE6C511C51C40900BD5AE9 /* Info.plist */,
+			);
+			path = CraftsburySkiingSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AFE6C281C51C40900BD5AE9 /* CraftsburySkiingSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFE6C541C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwift" */;
+			buildPhases = (
+				3AFE6C251C51C40900BD5AE9 /* Sources */,
+				3AFE6C261C51C40900BD5AE9 /* Frameworks */,
+				3AFE6C271C51C40900BD5AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CraftsburySkiingSwift;
+			productName = CraftsburySkiingSwift;
+			productReference = 3AFE6C291C51C40900BD5AE9 /* CraftsburySkiingSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFE6C3F1C51C40900BD5AE9 /* CraftsburySkiingSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFE6C571C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftTests" */;
+			buildPhases = (
+				3AFE6C3C1C51C40900BD5AE9 /* Sources */,
+				3AFE6C3D1C51C40900BD5AE9 /* Frameworks */,
+				3AFE6C3E1C51C40900BD5AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFE6C421C51C40900BD5AE9 /* PBXTargetDependency */,
+			);
+			name = CraftsburySkiingSwiftTests;
+			productName = CraftsburySkiingSwiftTests;
+			productReference = 3AFE6C401C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AFE6C4A1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFE6C5A1C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftUITests" */;
+			buildPhases = (
+				3AFE6C471C51C40900BD5AE9 /* Sources */,
+				3AFE6C481C51C40900BD5AE9 /* Frameworks */,
+				3AFE6C491C51C40900BD5AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFE6C4D1C51C40900BD5AE9 /* PBXTargetDependency */,
+			);
+			name = CraftsburySkiingSwiftUITests;
+			productName = CraftsburySkiingSwiftUITests;
+			productReference = 3AFE6C4B1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AFE6C211C51C40900BD5AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Phil Henson";
+				TargetAttributes = {
+					3AFE6C281C51C40900BD5AE9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3AFE6C3F1C51C40900BD5AE9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3AFE6C281C51C40900BD5AE9;
+					};
+					3AFE6C4A1C51C40900BD5AE9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3AFE6C281C51C40900BD5AE9;
+					};
+				};
+			};
+			buildConfigurationList = 3AFE6C241C51C40900BD5AE9 /* Build configuration list for PBXProject "CraftsburySkiingSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AFE6C201C51C40900BD5AE9;
+			productRefGroup = 3AFE6C2A1C51C40900BD5AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AFE6C281C51C40900BD5AE9 /* CraftsburySkiingSwift */,
+				3AFE6C3F1C51C40900BD5AE9 /* CraftsburySkiingSwiftTests */,
+				3AFE6C4A1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AFE6C271C51C40900BD5AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFE6C3A1C51C40900BD5AE9 /* LaunchScreen.storyboard in Resources */,
+				3AFE6C371C51C40900BD5AE9 /* Assets.xcassets in Resources */,
+				3AFE6C321C51C40900BD5AE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE6C3E1C51C40900BD5AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE6C491C51C40900BD5AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AFE6C251C51C40900BD5AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFE6C351C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodeld in Sources */,
+				3AFE6C2F1C51C40900BD5AE9 /* ViewController.swift in Sources */,
+				3AFE6C2D1C51C40900BD5AE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE6C3C1C51C40900BD5AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFE6C451C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE6C471C51C40900BD5AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFE6C501C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFE6C421C51C40900BD5AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFE6C281C51C40900BD5AE9 /* CraftsburySkiingSwift */;
+			targetProxy = 3AFE6C411C51C40900BD5AE9 /* PBXContainerItemProxy */;
+		};
+		3AFE6C4D1C51C40900BD5AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFE6C281C51C40900BD5AE9 /* CraftsburySkiingSwift */;
+			targetProxy = 3AFE6C4C1C51C40900BD5AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AFE6C301C51C40900BD5AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFE6C311C51C40900BD5AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFE6C381C51C40900BD5AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFE6C391C51C40900BD5AE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AFE6C521C51C40900BD5AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFE6C531C51C40900BD5AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AFE6C551C51C40900BD5AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CraftsburySkiingSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AFE6C561C51C40900BD5AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CraftsburySkiingSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AFE6C581C51C40900BD5AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CraftsburySkiingSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CraftsburySkiingSwift.app/CraftsburySkiingSwift";
+			};
+			name = Debug;
+		};
+		3AFE6C591C51C40900BD5AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CraftsburySkiingSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CraftsburySkiingSwift.app/CraftsburySkiingSwift";
+			};
+			name = Release;
+		};
+		3AFE6C5B1C51C40900BD5AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CraftsburySkiingSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CraftsburySkiingSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3AFE6C5C1C51C40900BD5AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CraftsburySkiingSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CraftsburySkiingSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFE6C241C51C40900BD5AE9 /* Build configuration list for PBXProject "CraftsburySkiingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE6C521C51C40900BD5AE9 /* Debug */,
+				3AFE6C531C51C40900BD5AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFE6C541C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE6C551C51C40900BD5AE9 /* Debug */,
+				3AFE6C561C51C40900BD5AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AFE6C571C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE6C581C51C40900BD5AE9 /* Debug */,
+				3AFE6C591C51C40900BD5AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AFE6C5A1C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE6C5B1C51C40900BD5AE9 /* Debug */,
+				3AFE6C5C1C51C40900BD5AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AFE6C331C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AFE6C341C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodel */,
+			);
+			currentVersion = 3AFE6C341C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodel */;
+			path = CraftsburySkiingSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AFE6C211C51C40900BD5AE9 /* Project object */;
+}
