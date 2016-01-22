@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		042706DFCB9B08324A8FC8E6 /* Pods_CraftsburySkiingSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F9ED7AA3E6352C05D065EF /* Pods_CraftsburySkiingSwiftTests.framework */; };
 		170A3E9FAA4BE92B9613099D /* Pods_CraftsburySkiingSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3584EFD82B133E467CAED25 /* Pods_CraftsburySkiingSwiftUITests.framework */; };
+		3AE166591C51C795007BF528 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE166581C51C795007BF528 /* Keys.plist */; };
 		3AFE6C2D1C51C40900BD5AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */; };
 		3AFE6C2F1C51C40900BD5AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */; };
 		3AFE6C321C51C40900BD5AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE6C301C51C40900BD5AE9 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		2FAA066E94F2CBDC488BCCA9 /* Pods-CraftsburySkiingSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwiftUITests/Pods-CraftsburySkiingSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AE166581C51C795007BF528 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		3AFE6C291C51C40900BD5AE9 /* CraftsburySkiingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftsburySkiingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				3AFE6C361C51C40900BD5AE9 /* Assets.xcassets */,
 				3AFE6C381C51C40900BD5AE9 /* LaunchScreen.storyboard */,
 				3AFE6C3B1C51C40900BD5AE9 /* Info.plist */,
+				3AE166581C51C795007BF528 /* Keys.plist */,
 				3AFE6C331C51C40900BD5AE9 /* CraftsburySkiingSwift.xcdatamodeld */,
 			);
 			path = CraftsburySkiingSwift;
@@ -281,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE166591C51C795007BF528 /* Keys.plist in Resources */,
 				3AFE6C3A1C51C40900BD5AE9 /* LaunchScreen.storyboard in Resources */,
 				3AFE6C371C51C40900BD5AE9 /* Assets.xcassets in Resources */,
 				3AFE6C321C51C40900BD5AE9 /* Main.storyboard in Resources */,
