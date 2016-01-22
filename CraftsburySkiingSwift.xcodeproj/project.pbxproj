@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042706DFCB9B08324A8FC8E6 /* Pods_CraftsburySkiingSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F9ED7AA3E6352C05D065EF /* Pods_CraftsburySkiingSwiftTests.framework */; };
+		170A3E9FAA4BE92B9613099D /* Pods_CraftsburySkiingSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3584EFD82B133E467CAED25 /* Pods_CraftsburySkiingSwiftUITests.framework */; };
 		3AFE6C2D1C51C40900BD5AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */; };
 		3AFE6C2F1C51C40900BD5AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */; };
 		3AFE6C321C51C40900BD5AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE6C301C51C40900BD5AE9 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		3AFE6C3A1C51C40900BD5AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE6C381C51C40900BD5AE9 /* LaunchScreen.storyboard */; };
 		3AFE6C451C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C441C51C40900BD5AE9 /* CraftsburySkiingSwiftTests.swift */; };
 		3AFE6C501C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE6C4F1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift */; };
+		EB468CF353BCF292A9094D81 /* Pods_CraftsburySkiingSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46068014492EBA6B6F1C5BA1 /* Pods_CraftsburySkiingSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FAA066E94F2CBDC488BCCA9 /* Pods-CraftsburySkiingSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwiftUITests/Pods-CraftsburySkiingSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3AFE6C291C51C40900BD5AE9 /* CraftsburySkiingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraftsburySkiingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFE6C2C1C51C40900BD5AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFE6C2E1C51C40900BD5AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		3AFE6C4B1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraftsburySkiingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFE6C4F1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftsburySkiingSwiftUITests.swift; sourceTree = "<group>"; };
 		3AFE6C511C51C40900BD5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46068014492EBA6B6F1C5BA1 /* Pods_CraftsburySkiingSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CraftsburySkiingSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		736062C30A941FDE779F7028 /* Pods-CraftsburySkiingSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwift/Pods-CraftsburySkiingSwift.release.xcconfig"; sourceTree = "<group>"; };
+		A481B089D6BF72B76826058E /* Pods-CraftsburySkiingSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwiftTests/Pods-CraftsburySkiingSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0B9083EFD1D091379422FC0 /* Pods-CraftsburySkiingSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwift/Pods-CraftsburySkiingSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B3584EFD82B133E467CAED25 /* Pods_CraftsburySkiingSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CraftsburySkiingSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3BEBBDDD975C68285D9D6C /* Pods-CraftsburySkiingSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwiftUITests/Pods-CraftsburySkiingSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1EA2D993CC746AC698A8537 /* Pods-CraftsburySkiingSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CraftsburySkiingSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CraftsburySkiingSwiftTests/Pods-CraftsburySkiingSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4F9ED7AA3E6352C05D065EF /* Pods_CraftsburySkiingSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CraftsburySkiingSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB468CF353BCF292A9094D81 /* Pods_CraftsburySkiingSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042706DFCB9B08324A8FC8E6 /* Pods_CraftsburySkiingSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170A3E9FAA4BE92B9613099D /* Pods_CraftsburySkiingSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				3AFE6C431C51C40900BD5AE9 /* CraftsburySkiingSwiftTests */,
 				3AFE6C4E1C51C40900BD5AE9 /* CraftsburySkiingSwiftUITests */,
 				3AFE6C2A1C51C40900BD5AE9 /* Products */,
+				3EFADAD79A126C476C6355A1 /* Pods */,
+				7C06F55763057F17B1127008 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = CraftsburySkiingSwiftUITests;
 			sourceTree = "<group>";
 		};
+		3EFADAD79A126C476C6355A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0B9083EFD1D091379422FC0 /* Pods-CraftsburySkiingSwift.debug.xcconfig */,
+				736062C30A941FDE779F7028 /* Pods-CraftsburySkiingSwift.release.xcconfig */,
+				A481B089D6BF72B76826058E /* Pods-CraftsburySkiingSwiftTests.debug.xcconfig */,
+				E1EA2D993CC746AC698A8537 /* Pods-CraftsburySkiingSwiftTests.release.xcconfig */,
+				BB3BEBBDDD975C68285D9D6C /* Pods-CraftsburySkiingSwiftUITests.debug.xcconfig */,
+				2FAA066E94F2CBDC488BCCA9 /* Pods-CraftsburySkiingSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C06F55763057F17B1127008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46068014492EBA6B6F1C5BA1 /* Pods_CraftsburySkiingSwift.framework */,
+				F4F9ED7AA3E6352C05D065EF /* Pods_CraftsburySkiingSwiftTests.framework */,
+				B3584EFD82B133E467CAED25 /* Pods_CraftsburySkiingSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFE6C541C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwift" */;
 			buildPhases = (
+				B434A70DA57EEBAD3549CC85 /* Check Pods Manifest.lock */,
 				3AFE6C251C51C40900BD5AE9 /* Sources */,
 				3AFE6C261C51C40900BD5AE9 /* Frameworks */,
 				3AFE6C271C51C40900BD5AE9 /* Resources */,
+				33DB815E15A18C0FE03B70D4 /* Embed Pods Frameworks */,
+				9E9E0DE03AC77968566147D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFE6C571C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftTests" */;
 			buildPhases = (
+				3ABC00FE9A8777B6534EEA1D /* Check Pods Manifest.lock */,
 				3AFE6C3C1C51C40900BD5AE9 /* Sources */,
 				3AFE6C3D1C51C40900BD5AE9 /* Frameworks */,
 				3AFE6C3E1C51C40900BD5AE9 /* Resources */,
+				F2BEB4630536DD1700131779 /* Embed Pods Frameworks */,
+				11887EEF46875EFEC71F6B33 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFE6C5A1C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftUITests" */;
 			buildPhases = (
+				5531FD89958FA409F8ED9AE4 /* Check Pods Manifest.lock */,
 				3AFE6C471C51C40900BD5AE9 /* Sources */,
 				3AFE6C481C51C40900BD5AE9 /* Frameworks */,
 				3AFE6C491C51C40900BD5AE9 /* Resources */,
+				EEA56E2B302B3A8A0910ACF2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +244,7 @@
 				TargetAttributes = {
 					3AFE6C281C51C40900BD5AE9 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P8S5H65KP7;
 					};
 					3AFE6C3F1C51C40900BD5AE9 = {
 						CreatedOnToolsVersion = 7.2;
@@ -253,6 +302,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11887EEF46875EFEC71F6B33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CraftsburySkiingSwiftTests/Pods-CraftsburySkiingSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33DB815E15A18C0FE03B70D4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CraftsburySkiingSwift/Pods-CraftsburySkiingSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ABC00FE9A8777B6534EEA1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5531FD89958FA409F8ED9AE4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9E0DE03AC77968566147D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CraftsburySkiingSwift/Pods-CraftsburySkiingSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B434A70DA57EEBAD3549CC85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA56E2B302B3A8A0910ACF2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CraftsburySkiingSwiftUITests/Pods-CraftsburySkiingSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2BEB4630536DD1700131779 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CraftsburySkiingSwiftTests/Pods-CraftsburySkiingSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AFE6C251C51C40900BD5AE9 /* Sources */ = {
@@ -401,8 +573,10 @@
 		};
 		3AFE6C551C51C40900BD5AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B9083EFD1D091379422FC0 /* Pods-CraftsburySkiingSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CraftsburySkiingSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwift;
@@ -412,8 +586,10 @@
 		};
 		3AFE6C561C51C40900BD5AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736062C30A941FDE779F7028 /* Pods-CraftsburySkiingSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CraftsburySkiingSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.henson.CraftsburySkiingSwift;
@@ -423,6 +599,7 @@
 		};
 		3AFE6C581C51C40900BD5AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A481B089D6BF72B76826058E /* Pods-CraftsburySkiingSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CraftsburySkiingSwiftTests/Info.plist;
@@ -435,6 +612,7 @@
 		};
 		3AFE6C591C51C40900BD5AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EA2D993CC746AC698A8537 /* Pods-CraftsburySkiingSwiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CraftsburySkiingSwiftTests/Info.plist;
@@ -447,6 +625,7 @@
 		};
 		3AFE6C5B1C51C40900BD5AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3BEBBDDD975C68285D9D6C /* Pods-CraftsburySkiingSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CraftsburySkiingSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +638,7 @@
 		};
 		3AFE6C5C1C51C40900BD5AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAA066E94F2CBDC488BCCA9 /* Pods-CraftsburySkiingSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CraftsburySkiingSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +668,7 @@
 				3AFE6C561C51C40900BD5AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AFE6C571C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +677,7 @@
 				3AFE6C591C51C40900BD5AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AFE6C5A1C51C40900BD5AE9 /* Build configuration list for PBXNativeTarget "CraftsburySkiingSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +686,7 @@
 				3AFE6C5C1C51C40900BD5AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
